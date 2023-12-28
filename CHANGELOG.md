@@ -8,3 +8,7 @@
 - Add support for LocalTesting and Xcode environments [#19]
 - Allow reading unknown enum values [#20]
 - Add errorMessage to APIException [#21]
+
+
+## Version 2.0.0
+- Fix iOS14 issue
