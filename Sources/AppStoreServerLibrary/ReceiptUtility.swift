@@ -9,6 +9,8 @@ public class ReceiptUtility {
     private static let TRANSACTION_IDENTIFIER_TYPE_ID = Int64(1703)
     private static let ORIGINAL_TRANSACTION_IDENTIFIER_TYPE_ID = Int64(1705)
     
+    public init() {}
+    
     ///Extracts a transaction id from an encoded App Receipt. Throws if the receipt does not match the expected format.
     ///*NO validation* is performed on the receipt, and any data returned should only be used to call the App Store Server API.
     ///- Parameter appReceipt The unmodified app receipt

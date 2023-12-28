@@ -48,4 +48,6 @@ public struct TransactionHistoryRequest: Hashable {
         case ascending = "ASCENDING"
         case descending = "DESCENDING"
     }
+    
+    public init() {}
 }
